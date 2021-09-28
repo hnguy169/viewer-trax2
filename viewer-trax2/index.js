@@ -1,5 +1,10 @@
 var myLayout;
 var labels = {
+  1: {
+    name: 'Accelerometer',
+    type: 'input',
+    traces: ['Acc X', 'Acc Y', 'Acc Z']
+  },
   1012: {
     name: "Trax2",
     type: "input",
