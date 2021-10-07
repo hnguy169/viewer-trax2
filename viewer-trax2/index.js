@@ -62,6 +62,7 @@ var plots = {};
 var scatterPlots = {};
 
 function renderEvents(name, events) {
+  clear();
   events.forEach((event) => {
     addEventToPlots(name, event);
     // create scatterPlot for mag indices 3,4,5
